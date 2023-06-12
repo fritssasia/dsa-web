@@ -3,6 +3,24 @@ header {
     height: 70px;
 }
 
+.navbar-brand img{
+    width: 70px;
+}
+/* navbar : end */
+.img-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-img-top {
+  transition: transform 0.9s;
+}
+
+.card-img-top:hover {
+  transform: scale(1.2);
+}
+
+
 .primary-color {
     color: #f50136 !important;
 }
@@ -147,19 +165,27 @@ header {
     border: 0;
     border-radius: 0;
     background: #18181c;
+    border: 1px solid;
+}
+
+#our-team .card-body {
+    height: 90px;
+    text-align: start;
 }
 
 #our-team .card .card-img-top {
     height: 300px;
+    width: 100%;
 }
 
 #our-team .card .card-title {
+    font-size: 16px;
     color: #f50136;
 }
 
 #our-team .card .card-text {
     color: #ffffff;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 #tim img {
