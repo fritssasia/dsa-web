@@ -724,10 +724,6 @@ Cover
   bottom: 0;
   color: #ffffff;
 }
-.cover_slider .cover_item .slider_content .slider-content-inner {
-  display: table-cell;
-  vertical-align: middle;
-}
 .cover_slider .cover_item .slider_content .slider-content-inner .cover-title {
   margin-top: 25px;
   margin-bottom: 0;

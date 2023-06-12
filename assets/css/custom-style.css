@@ -3,6 +3,35 @@ header {
     height: 70px;
 }
 
+.primary-color {
+    color: #f50136 !important;
+}
+
+.secondary-color {
+    color: #ffffff !important;
+}
+
+/* modal : start */
+.modal .modal-header {
+    border: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.modal .modal-body p {
+    color: #18181c;
+
+}
+
+.modal-btn {
+    padding: 0;
+}
+
+#modalKabidInvestigasi ol {
+    padding-left: 1rem;
+}
+/* modal : end */
+
 .header {
     background-color: #18181c;
     margin: 0;
@@ -20,13 +49,26 @@ header {
     font-size: 30px;
 }
 
-.cover_slider .cover_item .slider_content .slider-content-inner {
-    display: table-row;
+.cover_slider .cover_item .slider_content .slider-content-inner .one {
+    display: table-row !important;
+}
+
+.cover_slider .cover_item .slider_content .slider-content-inner .two {
+    display: table-cell !important;
 }
 
 .cover_slider .cover_item .slider_content .slider-content-inner .cover-xl-text {
     font-size: 30px;
     color: #ffffff;
+}
+
+.cover_slider .slider-content-center-bottom {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    text-align: center;
 }
 /* hero section : end */
 
@@ -40,8 +82,22 @@ header {
     text-align: justify;
 }
 
-#about .sambutan .italic {
+#about .italic {
     font-style: italic;
+}
+
+#about .salam {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#about .fw-bold {
+    font-weight: bold;
+}
+
+#about .number {
+    padding-right: 15px;
 }
 
 #about ol {
@@ -50,11 +106,17 @@ header {
 
 #about .icon_box_one {
     height: 300px;
+    margin: 0 7px;
 }
 
 #about .icon_box_one h4 {
     text-align: center;
     margin: 0;
+    font-size: 14px;
+}
+
+#about .thanks {
+    padding-top: 15px;
 }
 /* about : end */
 
@@ -65,15 +127,62 @@ header {
 
 #visi-misi .price_box p {
     color: #18181c;
+}
+
+#visi-misi p, li {
+    font-weight: bold;
+}
+
+#visi-misi .visi-desc {
+    text-align: center;
+}
+
+#visi-misi .list {
     text-align: center;
 }
 /* visi misi : end */
 
+/* tim : start */
+#our-team .card {
+    border: 0;
+    border-radius: 0;
+    background: #18181c;
+}
+
+#our-team .card .card-img-top {
+    height: 300px;
+}
+
+#our-team .card .card-title {
+    color: #f50136;
+}
+
+#our-team .card .card-text {
+    color: #ffffff;
+    font-size: 13px;
+}
+
+#tim img {
+    width: 100vw;
+    height: 400px;
+    object-fit: cover;
+}
+/* 
+#tim .col-md-3 {
+    margin: 10px;
+} */
+/* tim : end */
+
 /* footer : start */
+
 .footer_box_body {
     width: 50%;
     display: block;
     margin: 0 auto;
+}
+
+footer .footer_logo img {
+    width: 350px;
 }
 /* footer : end */
 
