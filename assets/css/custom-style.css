@@ -12,15 +12,6 @@ header {
   overflow: hidden;
 }
 
-.card-img-top {
-  transition: transform 0.9s;
-}
-
-.card-img-top:hover {
-  transform: scale(1.2);
-}
-
-
 .primary-color {
     color: #f50136 !important;
 }
@@ -173,9 +164,14 @@ header {
     text-align: start;
 }
 
-#our-team .card .card-img-top {
+#our-team .card-img-top {
     height: 300px;
     width: 100%;
+  transition: transform 0.9s;
+}
+
+#our-team .card-img-top:hover {
+  transform: scale(1.2);
 }
 
 #our-team .card .card-title {
@@ -198,6 +194,57 @@ header {
     margin: 10px;
 } */
 /* tim : end */
+
+/* artnews : start */
+#artnews .card {
+    border-radius: 0;
+}
+
+#artnews .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+#artnews .card p {
+    color: #18181c;
+}
+
+#artnews .writer-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 1px solid #f50136;
+}
+
+#artnews .writer-info {
+    padding-left: 10px;
+}
+
+#artnews .writer-name {
+    font-weight: 600;
+}
+
+#artnews .date {
+    font-size: 13px;
+}
+
+#artnews .title-wrapper {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Atur jumlah baris yang ingin ditampilkan */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#artnews .desc-wrapper {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Atur jumlah baris yang ingin ditampilkan */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* artnews : end */
 
 /* footer : start */
 
