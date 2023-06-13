@@ -196,12 +196,75 @@ header {
 /* tim : end */
 
 /* artnews : start */
-#artnews .card {
+#artnews-content-sidepanel .card {
+    border-radius: 0;
+}
+
+#artnews-content-sidepanel .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+#artnews-content-sidepanel .card p {
+    color: #18181c;
+}
+
+#artnews-content-sidepanel .writer-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 1px solid #f50136;
+}
+
+#artnews-content-sidepanel .writer-info {
+    padding-left: 10px;
+}
+
+#artnews-content-sidepanel .writer-name {
+    font-weight: 600;
+}
+
+#artnews-content-sidepanel .date {
+    font-size: 13px;
+}
+
+#artnews-content-sidepanel .title-wrapper {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Atur jumlah baris yang ingin ditampilkan */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#artnews-content-sidepanel .desc-wrapper {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Atur jumlah baris yang ingin ditampilkan */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* artnews : end */
+
+/* footer : start */
+
+.footer_box_body {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+footer .footer_logo img {
+    width: 350px;
+}
+/* footer : end */
+
+/* === artnews : START === */
+#artnews-content-sidepanel .card {
     border-radius: 0;
 }
 
 #artnews .card-img-top {
-    height: 200px;
+    height: 150px;
     object-fit: cover;
 }
 
@@ -244,22 +307,6 @@ header {
   text-overflow: ellipsis;
 }
 
-/* artnews : end */
-
-/* footer : start */
-
-.footer_box_body {
-    width: 50%;
-    display: block;
-    margin: 0 auto;
-}
-
-footer .footer_logo img {
-    width: 350px;
-}
-/* footer : end */
-
-/* === artnews : START === */
 #artnews-content .badge {
     background-color: #f50136;
     display: inline-block;
@@ -272,17 +319,13 @@ footer .footer_logo img {
     color: #ffffff;
 }
 
-#artnews-content .date {
-    padding-left: 15px;
-}
-
 #artnews-content i {
     font-size: 20px;
     color: #f50136;
 }
 
 #artnews-content .title-wrapper {
-    padding-bottom: 40px;
+    padding-bottom: 10px;
 }
 
 #artnews-content p {
@@ -307,6 +350,27 @@ footer .footer_logo img {
     text-align: justify;
 }
 
+#artnews-content .writer-detail img {
+    width: 50px !important;
+    border-radius: 100%;
+}
+
+#artnews-content .writer-wrapper {
+    padding-left: 10px;
+}
+
+#artnews-content .section_title {
+    padding-top: 25px;
+}
+
+#artnews-content .section_title .title {
+    font-size: 20px;
+}
+
+#artnews-content .writer-name {
+    font-weight: 600;
+}
+
 #artnews-content .pagination {
     border-radius: 0;
     box-shadow: none;
@@ -326,3 +390,63 @@ footer .footer_logo img {
     color: #ffffff;
 }
 /* === artnews : END === */
+
+/* === artnews sidepanel : start === */
+#artnews-content-sidepanel h3 {
+    margin: 0 !important;
+}
+
+#artnews-content-sidepanel .section_title {
+    padding: 0 !important;
+    margin: 50px 0px 20px 0px !important;
+}
+
+#artnews-content-sidepanel .card {
+    border-radius: 0;
+    margin-bottom: 30px;
+}
+
+#artnews-content-sidepanel .card-img-top {
+    height: 150px;
+    object-fit: cover;
+}
+
+#artnews-content-sidepanel .card p {
+    color: #18181c;
+}
+
+#artnews-content-sidepanel .writer-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 1px solid #f50136;
+}
+
+#artnews-content-sidepanel .writer-info {
+    padding-left: 10px;
+}
+
+#artnews-content-sidepanel .writer-name {
+    font-weight: 600;
+}
+
+#artnews-content-sidepanel .date {
+    font-size: 13px;
+}
+
+#artnews-content-sidepanel .title-wrapper {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Atur jumlah baris yang ingin ditampilkan */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#artnews-content-sidepanel .desc-wrapper {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Atur jumlah baris yang ingin ditampilkan */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* === artnews sidepanel : end === */
