@@ -149,6 +149,10 @@ header {
 #visi-misi .list {
     text-align: center;
 }
+
+#visi-misi h4 {
+    font-size: 30px;
+}
 /* visi misi : end */
 
 /* tim : start */
@@ -266,6 +270,10 @@ footer .footer_logo img {
 #artnews .card-img-top {
     height: 150px;
     object-fit: cover;
+}
+
+#artnews .card {
+    margin-bottom: 30px;
 }
 
 #artnews .card p {
