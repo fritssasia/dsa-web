@@ -1,7 +1,5 @@
 /* navbar : start */
-header {
-    height: 70px;
-}
+
 
 .navbar-brand img{
     width: 70px;
@@ -193,6 +191,10 @@ header {
     height: 400px;
     object-fit: cover;
 }
+
+#tim .modal-btn {
+    width: 100%;
+}
 /* 
 #tim .col-md-3 {
     margin: 10px;
@@ -259,6 +261,10 @@ header {
 
 footer .footer_logo img {
     width: 350px;
+}
+
+#kontak .italic {
+    font-style: italic;
 }
 /* footer : end */
 
