@@ -48,6 +48,10 @@
 .nav-link.active {
     background-color: #f50136;
 }
+
+.nav-link.active:hover {
+    color: #ffffff !important;
+}
 /* navbar : end */
 
 /* hero section : start */
@@ -260,7 +264,7 @@
 }
 
 footer .footer_logo img {
-    width: 350px;
+    width: 150px;
 }
 
 #kontak .italic {

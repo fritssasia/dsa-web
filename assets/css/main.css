@@ -160,7 +160,6 @@ a:active {
 }
 
 .brand_item {
-  opacity: 0.3;
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
 }
